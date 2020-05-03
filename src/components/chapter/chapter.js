@@ -37,14 +37,20 @@ const Image = ({ fileName, alt }) => (
   />
 );
 
-const Chapter = ({ title, imagePath, children }) => {
+const Chapter = ({ title, imagePath, children, style }) => {
   return (
     <section className={chapterStyles.chapter}>
       <div className={chapterStyles.text}>
         <h3>{title}</h3>
         {children}
       </div>
-      <div className={chapterStyles.media}>
+      <div
+        className={
+          style === "border"
+            ? `${chapterStyles.media} ${chapterStyles.mediaBorder}`
+            : chapterStyles.media
+        }
+      >
         <Image fileName={imagePath} alt="" />
       </div>
     </section>

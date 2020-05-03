@@ -8,3 +8,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+.subtitle {
+  color: var(--text-40);
+  margin-bottom: 24px;
+}

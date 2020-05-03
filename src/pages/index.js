@@ -23,13 +23,13 @@ const IndexPage = () => (
         title="Following artists"
         subtitle="The latest of your favourite artists, anywhere on the platform."
         imagePath="thumbs/thumb-artists.png"
-        to="/page-2/"
+        to="/artists/"
       ></Card>
       <Card
         title="Discover"
         subtitle="Finding the right event on the right day."
         imagePath="thumbs/thumb-discover.png"
-        to="/page-2/"
+        to="/discover/"
       ></Card>
     </Group>
 
@@ -41,13 +41,13 @@ const IndexPage = () => (
         title="Abstract To Do"
         subtitle="Automatic to do lists for design feedback."
         imagePath="thumbs/thumb-abstract.png"
-        to="/page-2/"
+        to="/abstract-to-do/"
       ></Card>
       <Card
         title="Desize"
         subtitle="Simple image resizer, compressor, and converter"
         imagePath="thumbs/thumb-desize.png"
-        to="/page-2/"
+        to="/desize/"
       ></Card>
     </Group>
   </Layout>
