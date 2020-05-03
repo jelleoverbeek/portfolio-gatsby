@@ -1,0 +1,13 @@
+.footer {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons > a {
+  opacity: 0.5;
+}
+
+.icons > a:hover {
+  opacity: 1;
+}
