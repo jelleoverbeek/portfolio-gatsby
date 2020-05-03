@@ -1,5 +1,5 @@
 .chapter {
-  margin-top: 72px;
+  margin-top: 4.5rem;
 }
 @media (max-width: 550px) {
   .chapter {
@@ -14,29 +14,29 @@
 
 .media {
   max-width: 100%;
-  border-radius: 12px;
+  border-radius: var(--radius-big);
   max-width: 100%;
-  margin: 24px auto 32px auto;
+  margin: 1.5rem auto 2rem auto;
   overflow: hidden;
 }
 
 .media-border {
-  box-shadow: 0px 0px 0px 12px var(--light-gray);
-  margin-top: 32px;
+  box-shadow: 0 0 0 0.75rem var(--light-gray);
+  margin-top: 2rem;
 }
 
 @media (max-width: 550px) {
   .media-border {
     box-shadow: none;
-    border: 8px solid var(--light-gray);
-    margin-top: 24px;
+    border: 0.5rem solid var(--light-gray);
+    margin-top: 1.5rem;
   }
 }
 
 .card:hover .preview {
-  transform: translateY(8px);
+  transform: translateY(0.5rem);
 }
 
 .media-border img {
-  border-radius: 6px;
+  border-radius: var(--radius-small);
 }

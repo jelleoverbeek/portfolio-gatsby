@@ -1,5 +1,5 @@
 .footer {
-  margin-top: 88px;
+  margin-top: 5.5rem;
   padding: 1.5rem 0;
   width: 100%;
 }
@@ -21,7 +21,7 @@
 
 .icons > a {
   opacity: 0.4;
-  margin-left: 16px;
+  margin-left: 1rem;
 }
 
 .icons > a:hover {

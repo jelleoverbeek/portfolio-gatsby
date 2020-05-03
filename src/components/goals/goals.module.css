@@ -1,37 +1,37 @@
 .goals {
-  margin-bottom: 48px;
+  margin-bottom: 3rem;
   background: #f9f9f9;
-  padding: 32px;
-  border-radius: 12px;
-  margin-top: 32px;
+  padding: 2rem;
+  border-radius: var(--radius-big);
+  margin-top: 2rem;
 }
 
 .goals h4 {
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .goals ul {
-  padding-left: 24px;
-  font-size: 20px;
+  padding-left: 1.5rem;
+  font-size: 1.25rem;
   color: var(--text-60);
-  margin: 8px 0 0 0;
+  margin: 0.5rem 0 0 0;
   line-height: 1.44;
 }
 
 @media (max-width: 550px) {
   .goals ul {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.4;
   }
 }
 
 @media (max-width: 350px) {
   .goals ul {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.4;
   }
 }
 
 .goals li {
-  margin-top: 4px;
+  margin-top: 0.25rem;
 }

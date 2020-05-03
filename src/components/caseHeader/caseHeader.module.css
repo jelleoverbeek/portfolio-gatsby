@@ -3,7 +3,7 @@
 }
 
 .nav {
-  padding: 32px 0;
+  padding: 2rem 0;
   display: flex;
   justify-content: space-between;
   max-width: var(--small-container);
@@ -12,7 +12,7 @@
 
 @media (max-width: 550px) {
   .nav {
-    padding: 16px 0;
+    padding: 1rem 0;
   }
 }
 
@@ -23,5 +23,5 @@
 
 .subtitle {
   color: var(--text-40);
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
