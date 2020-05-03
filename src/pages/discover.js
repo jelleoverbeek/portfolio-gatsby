@@ -4,7 +4,7 @@ import SEO from "../components/seo";
 import CaseHeader from "../components/caseHeader/caseHeader";
 // import Card from "../components/card/card";
 // import Group from "../components/group/group";
-import Goals from "../components/Goals/goals";
+import Goals from "../components/goals/goals";
 import Chapter from "../components/chapter/chapter";
 
 const eventPage = () => (

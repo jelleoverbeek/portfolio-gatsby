@@ -4,7 +4,7 @@ import SEO from "../components/seo";
 import CaseHeader from "../components/caseHeader/caseHeader";
 // import Card from "../components/card/card";
 // import Group from "../components/group/group";
-import Goals from "../components/Goals/goals";
+import Goals from "../components/goals/goals";
 import Chapter from "../components/chapter/chapter";
 
 const eventPage = () => (
@@ -41,7 +41,7 @@ const eventPage = () => (
       <Chapter
         title="Preview"
         imagePath="cases/artist/preview.jpg"
-        style="border"
+        type="border"
       >
         <p>Preview</p>
       </Chapter>
@@ -49,23 +49,19 @@ const eventPage = () => (
       <Chapter
         title="Artists"
         imagePath="cases/artist/artists.jpg"
-        style="border"
+        type="border"
       >
         <p>Artists</p>
       </Chapter>
 
-      <Chapter
-        title="Badges"
-        imagePath="cases/artist/badges.jpg"
-        style="border"
-      >
+      <Chapter title="Badges" imagePath="cases/artist/badges.jpg" type="border">
         <p>Badges</p>
       </Chapter>
 
       <Chapter
         title="Homepage"
         imagePath="cases/artist/homepage.jpg"
-        style="border"
+        type="border"
       >
         <p>Homepage</p>
       </Chapter>

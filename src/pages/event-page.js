@@ -4,7 +4,7 @@ import SEO from "../components/seo";
 import CaseHeader from "../components/caseHeader/caseHeader";
 // import Card from "../components/card/card";
 // import Group from "../components/group/group";
-import Goals from "../components/Goals/goals";
+import Goals from "../components/goals/goals";
 import Chapter from "../components/chapter/chapter";
 
 const eventPage = () => (
@@ -37,7 +37,7 @@ const eventPage = () => (
       <Chapter
         title="Ticket types"
         imagePath="cases/event/event.jpg"
-        style="border"
+        type="border"
       >
         <p>
           On this page the user can select the right ticket type and find all
@@ -48,7 +48,7 @@ const eventPage = () => (
       <Chapter
         title="Listings overview"
         imagePath="cases/event/ticket-type.jpg"
-        style="border"
+        type="border"
       >
         <p>
           This is the page where users spend a lot of time trying to get a
@@ -62,7 +62,7 @@ const eventPage = () => (
       <Chapter
         title="Listings"
         imagePath="cases/event/listings.jpg"
-        style="border"
+        type="border"
       >
         <p>
           Users with ticket alerts enabled will first receive a notification
@@ -76,14 +76,14 @@ const eventPage = () => (
         </p>
       </Chapter>
 
-      <Chapter title="Header" imagePath="cases/event/header.jpg" style="border">
+      <Chapter title="Header" imagePath="cases/event/header.jpg" type="border">
         <p>header</p>
       </Chapter>
 
       <Chapter
         title="Artists"
         imagePath="cases/event/artists.jpg"
-        style="border"
+        type="border"
       >
         <p>artists</p>
       </Chapter>
@@ -91,7 +91,7 @@ const eventPage = () => (
       <Chapter
         title="Similars"
         imagePath="cases/event/similars.jpg"
-        style="border"
+        type="border"
       >
         <p>similar</p>
       </Chapter>
