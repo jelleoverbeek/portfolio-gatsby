@@ -2,7 +2,41 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 import cardStyles from "./card.module.css";
-import Image from "./../image";
+import { StaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
+
+const Image = ({ fileName, alt }) => (
+  <StaticQuery
+    query={graphql`
+      query {
+        images: allFile {
+          edges {
+            node {
+              relativePath
+              name
+              childImageSharp {
+                sizes(maxWidth: 392, quality: 100) {
+                  ...GatsbyImageSharpSizes
+                }
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={(data) => {
+      const image = data.images.edges.find((n) => {
+        return n.node.relativePath.includes(fileName);
+      });
+      if (!image) {
+        return null;
+      }
+
+      const imageSizes = image.node.childImageSharp.sizes;
+      return <Img alt={alt} sizes={imageSizes} />;
+    }}
+  />
+);
 
 const Card = ({ title, subtitle, imagePath, to }) => {
   return (
@@ -10,7 +44,7 @@ const Card = ({ title, subtitle, imagePath, to }) => {
       <article className={cardStyles.card}>
         <div className={cardStyles.left}>
           <div className={cardStyles.preview}>
-            <Image fileName={imagePath} maxWidth="392" alt="" />
+            <Image fileName={imagePath} alt="" />
           </div>
         </div>
         <div className={cardStyles.right}>

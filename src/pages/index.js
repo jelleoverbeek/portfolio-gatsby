@@ -1,8 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
-
 import Layout from "../components/layout";
-// import Image from "../components/image"
 import SEO from "../components/seo";
 import Intro from "../components/intro/intro";
 import Card from "../components/card/card";
@@ -20,7 +17,7 @@ const IndexPage = () => (
         title="Event page"
         subtitle="The place where thousands of fans are trying to get a ticket, daily."
         imagePath="thumbs/thumb-event.png"
-        to="/page-2/"
+        to="/event-page/"
       ></Card>
       <Card
         title="Following artists"

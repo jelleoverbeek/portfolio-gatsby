@@ -1,11 +1,9 @@
-// import { Link } from "gatsby"
-// import PropTypes from "prop-types"
-import React from "react"
-import linkedin from "./../../images/linkedin.svg"
-import twitter from "./../../images/twitter.svg"
-import dribbble from "./../../images/dribbble.svg"
-import github from "./../../images/github.svg"
-import footerStyles from "./footer.module.css"
+import React from "react";
+import footerStyles from "./footer.module.css";
+import linkedin from "./../../images/linkedin.svg";
+import twitter from "./../../images/twitter.svg";
+import dribbble from "./../../images/dribbble.svg";
+import github from "./../../images/github.svg";
 
 const Footer = () => (
   <footer className={footerStyles.footer}>
@@ -28,6 +26,6 @@ const Footer = () => (
       </a>
     </div>
   </footer>
-)
+);
 
-export default Footer
+export default Footer;

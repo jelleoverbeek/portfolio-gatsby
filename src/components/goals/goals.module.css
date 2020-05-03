@@ -1,0 +1,23 @@
+.goals {
+  margin-bottom: 48px;
+  background: #f9f9f9;
+  padding: 32px;
+  border-radius: 12px;
+  margin-top: 32px;
+}
+
+.goals h4 {
+  margin-bottom: 16px;
+}
+
+.goals ul {
+  padding-left: 24px;
+  font-size: 20px;
+  color: var(--text-60);
+  margin: 8px 0 0 0;
+  line-height: 1.44;
+}
+
+.goals li {
+  margin-top: 4px;
+}
