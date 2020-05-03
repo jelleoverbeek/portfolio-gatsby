@@ -14,6 +14,7 @@ const eventPage = () => (
       title="Artists page"
       subtitle="Product designer"
       liveUrl="//www.ticketswap.com/artist/hunee/5736e43b-8538-4c6b-98d8-e72b3094cde0"
+      buttonLabel="View live"
     >
       <p>
         The event page of TicketSwap is the most viewed on the platform. On this

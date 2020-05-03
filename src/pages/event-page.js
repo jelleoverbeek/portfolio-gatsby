@@ -10,7 +10,12 @@ import Chapter from "../components/chapter/chapter";
 const eventPage = () => (
   <Layout>
     <SEO title="Event page" />
-    <CaseHeader title="Event page" subtitle="Product designer">
+    <CaseHeader
+      title="Event page"
+      subtitle="Product designer"
+      liveUrl="//www.ticketswap.com/event/dekmantel-festival/c4b0156a-aa73-4e89-a027-fe679776c746"
+      buttonLabel="View live"
+    >
       <p>
         The event page of TicketSwap is the most viewed on the platform. On this
         page listings thousands of fans are trying to get a ticket to their

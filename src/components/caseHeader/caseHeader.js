@@ -2,7 +2,7 @@ import React from "react";
 import caseHeaderStyles from "./caseHeader.module.css";
 import Button from "../button/button";
 
-const CaseHeader = ({ children, title, subtitle, liveUrl, coverImagePath }) => {
+const CaseHeader = ({ children, title, subtitle, liveUrl, buttonLabel }) => {
   return (
     <div className={caseHeaderStyles.header}>
       <div className={caseHeaderStyles.cover}>
@@ -11,7 +11,7 @@ const CaseHeader = ({ children, title, subtitle, liveUrl, coverImagePath }) => {
             Back
           </Button>
           <Button type="primary" href={liveUrl}>
-            Live version
+            {buttonLabel}
           </Button>
         </nav>
       </div>

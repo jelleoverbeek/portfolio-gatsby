@@ -6,13 +6,13 @@ const Button = ({ children, to, type, href }) => {
   if (href) {
     if (type === "primary") {
       return (
-        <a href={href}>
+        <a href={href} target="_blank" rel="noopener noreferrer">
           <button className={buttonStyles.primary}>{children}</button>
         </a>
       );
     } else if (type === "secondary") {
       return (
-        <a href={href}>
+        <a href={href} target="_blank" rel="noopener noreferrer">
           <button className={buttonStyles.secondary}>{children}</button>
         </a>
       );
