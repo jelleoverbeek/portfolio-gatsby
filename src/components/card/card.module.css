@@ -59,7 +59,8 @@
 }
 
 .preview {
-  border-radius: 6px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
   transition: transform ease-in-out 0.1s;
   max-width: 100%;
   margin: 0 auto;

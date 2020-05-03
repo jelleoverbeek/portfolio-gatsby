@@ -1,7 +1,6 @@
-// import { Link } from "gatsby"
-// import PropTypes from "prop-types"
+import PropTypes from "prop-types";
 import React from "react";
-import introStyles from "./intro.module.css";
+import chapterStyles from "./chapter.module.css";
 import { StaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 
@@ -15,7 +14,7 @@ const Image = ({ fileName, alt }) => (
               relativePath
               name
               childImageSharp {
-                sizes(maxWidth: 320, quality: 100) {
+                sizes(maxWidth: 1040, quality: 100) {
                   ...GatsbyImageSharpSizes
                 }
               }
@@ -38,27 +37,28 @@ const Image = ({ fileName, alt }) => (
   />
 );
 
-const Intro = () => (
-  <div className={introStyles.intro}>
-    <div className={introStyles.text}>
-      <p>
-        I’m Jelle, a designer that also loves to{" "}
-        <a href="//github.com/jelleoverbeek">code</a>. Currently I’m doing
-        product design at{" "}
-        <a
-          href="https://ticketswap.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          TicketSwap
-        </a>
-        .
-      </p>
-    </div>
-    <div className={introStyles.avatar}>
-      <Image fileName="avatar.jpg" alt="" />
-    </div>
-  </div>
-);
+const Chapter = ({ title, imagePath, children }) => {
+  return (
+    <section className={chapterStyles.chapter}>
+      <div className={chapterStyles.text}>
+        <h3>{title}</h3>
+        {children}
+      </div>
+      <div className={chapterStyles.media}>
+        <Image fileName={imagePath} alt="" />
+      </div>
+    </section>
+  );
+};
 
-export default Intro;
+Chapter.propTypes = {
+  title: PropTypes.string,
+  imagePath: PropTypes.string,
+};
+
+Chapter.defaultProps = {
+  title: `Title`,
+  imagePath: ``,
+};
+
+export default Chapter;

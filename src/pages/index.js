@@ -7,7 +7,7 @@ import Group from "../components/group/group";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Jelle Overbeek" />
     <Intro />
     <Group
       title="TicketSwap"

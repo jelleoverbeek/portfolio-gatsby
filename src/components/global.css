@@ -12,6 +12,11 @@
   --text-40: rgba(0, 0, 0, 0.4);
   --text-20: rgba(0, 0, 0, 0.2);
   --card-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  --light-gray: #f5f5f6;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 html {
@@ -35,9 +40,9 @@ h1 {
 }
 
 h2 {
-  font-size: 38px;
+  font-size: 32px;
   margin-top: 88px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 h3 {
@@ -62,61 +67,7 @@ p {
   font-size: 20px;
   color: var(--text-60);
   margin: 8px 0 16px 0;
-  line-height: 1.4;
-}
-
-h1 {
-  font-size: 48px;
-  margin-top: 0;
-  margin-bottom: 8px;
-}
-
-h2 {
-  font-size: 38px;
-  margin-top: 88px;
-  margin-bottom: 8px;
-}
-
-h3 {
-  font-size: 28px;
-  margin-top: 0;
-  margin-bottom: 8px;
-}
-
-h4 {
-  font-size: 24px;
-  margin-top: 0;
-  margin-bottom: 4px;
-}
-
-h5 {
-  font-size: 20px;
-  text-transform: uppercase;
-  color: var(--text-40);
-}
-
-p {
-  font-size: 20px;
-  color: var(--text-60);
-  margin: 8px 0 16px 0;
-  line-height: 1.4;
-}
-
-.h1-subtitle {
-  font-size: 18px;
-  color: var(--text-40);
-}
-
-ul {
-  padding-left: 24px;
-  font-size: 20px;
-  color: var(--text-60);
-  margin: 8px 0 0 0;
-  line-height: 1.44;
-}
-
-li {
-  margin-top: 4px;
+  line-height: 1.48;
 }
 
 a {

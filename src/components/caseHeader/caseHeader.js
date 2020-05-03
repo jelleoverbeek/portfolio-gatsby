@@ -1,12 +1,11 @@
-import { Link } from "gatsby";
 import React from "react";
-import caseStyles from "./case.module.css";
+import caseHeaderStyles from "./caseHeader.module.css";
 import Button from "../button/button";
 
-const Case = ({ children }) => {
+const CaseIntro = ({ children }) => {
   return (
-    <div className={caseStyles.case}>
-      <nav className={caseStyles.nav}>
+    <div className={caseHeaderStyles.header}>
+      <nav className={caseHeaderStyles.nav}>
         <Button type="secondary" to="/">
           Back
         </Button>
@@ -19,4 +18,4 @@ const Case = ({ children }) => {
   );
 };
 
-export default Case;
+export default CaseIntro;
