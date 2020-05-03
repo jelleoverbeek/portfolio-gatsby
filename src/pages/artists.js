@@ -37,37 +37,43 @@ const eventPage = () => (
       </Goals>
     </CaseHeader>
 
-    <Chapter
-      title="Preview"
-      imagePath="cases/artist/preview.jpg"
-      style="border"
-    >
-      <p>Preview</p>
-    </Chapter>
+    <main>
+      <Chapter
+        title="Preview"
+        imagePath="cases/artist/preview.jpg"
+        style="border"
+      >
+        <p>Preview</p>
+      </Chapter>
 
-    <Chapter
-      title="Artists"
-      imagePath="cases/artist/artists.jpg"
-      style="border"
-    >
-      <p>Artists</p>
-    </Chapter>
+      <Chapter
+        title="Artists"
+        imagePath="cases/artist/artists.jpg"
+        style="border"
+      >
+        <p>Artists</p>
+      </Chapter>
 
-    <Chapter title="Badges" imagePath="cases/artist/badges.jpg" style="border">
-      <p>Badges</p>
-    </Chapter>
+      <Chapter
+        title="Badges"
+        imagePath="cases/artist/badges.jpg"
+        style="border"
+      >
+        <p>Badges</p>
+      </Chapter>
 
-    <Chapter
-      title="Homepage"
-      imagePath="cases/artist/homepage.jpg"
-      style="border"
-    >
-      <p>Homepage</p>
-    </Chapter>
+      <Chapter
+        title="Homepage"
+        imagePath="cases/artist/homepage.jpg"
+        style="border"
+      >
+        <p>Homepage</p>
+      </Chapter>
 
-    <Chapter title="Push" imagePath="cases/artist/push.jpg">
-      <p>Push</p>
-    </Chapter>
+      <Chapter title="Push" imagePath="cases/artist/push.jpg">
+        <p>Push</p>
+      </Chapter>
+    </main>
   </Layout>
 );
 

@@ -33,62 +33,69 @@ const eventPage = () => (
       </Goals>
     </CaseHeader>
 
-    <Chapter
-      title="Ticket types"
-      imagePath="cases/event/event.jpg"
-      style="border"
-    >
-      <p>
-        On this page the user can select the right ticket type and find all
-        general info about the event.
-      </p>
-    </Chapter>
+    <main>
+      <Chapter
+        title="Ticket types"
+        imagePath="cases/event/event.jpg"
+        style="border"
+      >
+        <p>
+          On this page the user can select the right ticket type and find all
+          general info about the event.
+        </p>
+      </Chapter>
 
-    <Chapter
-      title="Listings overview"
-      imagePath="cases/event/ticket-type.jpg"
-      style="border"
-    >
-      <p>
-        This is the page where users spend a lot of time trying to get a ticket.
-        To create trust and make the page feel personal we show avatars of the
-        sellers. The comments that sellers can add to their listing sometimes
-        create funny situations that get shared on social media.
-      </p>
-    </Chapter>
+      <Chapter
+        title="Listings overview"
+        imagePath="cases/event/ticket-type.jpg"
+        style="border"
+      >
+        <p>
+          This is the page where users spend a lot of time trying to get a
+          ticket. To create trust and make the page feel personal we show
+          avatars of the sellers. The comments that sellers can add to their
+          listing sometimes create funny situations that get shared on social
+          media.
+        </p>
+      </Chapter>
 
-    <Chapter
-      title="Listings"
-      imagePath="cases/event/listings.jpg"
-      style="border"
-    >
-      <p>
-        Users with ticket alerts enabled will first receive a notification once
-        a new listing is created, the listing won’t be visible on the event page
-        immediately. We do this to combat bots and increase app downloads. When
-        doing our research we discovered that sellers went to the event page to
-        check their listing and couldn’t see it yet, this resulted in a lot of
-        users contacting support. To solve this issue without giving bots a
-        chance and hurting the app downloads conversion we will now show the
-        newly created to the seller only.
-      </p>
-    </Chapter>
+      <Chapter
+        title="Listings"
+        imagePath="cases/event/listings.jpg"
+        style="border"
+      >
+        <p>
+          Users with ticket alerts enabled will first receive a notification
+          once a new listing is created, the listing won’t be visible on the
+          event page immediately. We do this to combat bots and increase app
+          downloads. When doing our research we discovered that sellers went to
+          the event page to check their listing and couldn’t see it yet, this
+          resulted in a lot of users contacting support. To solve this issue
+          without giving bots a chance and hurting the app downloads conversion
+          we will now show the newly created to the seller only.
+        </p>
+      </Chapter>
 
-    <Chapter title="Header" imagePath="cases/event/header.jpg" style="border">
-      <p>header</p>
-    </Chapter>
+      <Chapter title="Header" imagePath="cases/event/header.jpg" style="border">
+        <p>header</p>
+      </Chapter>
 
-    <Chapter title="Artists" imagePath="cases/event/artists.jpg" style="border">
-      <p>artists</p>
-    </Chapter>
+      <Chapter
+        title="Artists"
+        imagePath="cases/event/artists.jpg"
+        style="border"
+      >
+        <p>artists</p>
+      </Chapter>
 
-    <Chapter
-      title="Similars"
-      imagePath="cases/event/similars.jpg"
-      style="border"
-    >
-      <p>similar</p>
-    </Chapter>
+      <Chapter
+        title="Similars"
+        imagePath="cases/event/similars.jpg"
+        style="border"
+      >
+        <p>similar</p>
+      </Chapter>
+    </main>
   </Layout>
 );
 

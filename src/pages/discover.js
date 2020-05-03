@@ -33,24 +33,29 @@ const eventPage = () => (
       </Goals>
     </CaseHeader>
 
-    <Chapter title="top" imagePath="cases/discover/top.jpg">
-      <p>top</p>
-    </Chapter>
+    <main>
+      <Chapter title="top" imagePath="cases/discover/top.jpg">
+        <p>top</p>
+      </Chapter>
 
-    <Chapter title="Browse events" imagePath="cases/discover/browse-events.jpg">
-      <p>browse events</p>
-    </Chapter>
+      <Chapter
+        title="Browse events"
+        imagePath="cases/discover/browse-events.jpg"
+      >
+        <p>browse events</p>
+      </Chapter>
 
-    <Chapter
-      title="Personalised recommendations"
-      imagePath="cases/discover/picked-for-you.jpg"
-    >
-      <p>recommendations</p>
-    </Chapter>
+      <Chapter
+        title="Personalised recommendations"
+        imagePath="cases/discover/picked-for-you.jpg"
+      >
+        <p>recommendations</p>
+      </Chapter>
 
-    <Chapter title="Cards" imagePath="cases/discover/cards.jpg">
-      <p>cards</p>
-    </Chapter>
+      <Chapter title="Cards" imagePath="cases/discover/cards.jpg">
+        <p>cards</p>
+      </Chapter>
+    </main>
   </Layout>
 );
 

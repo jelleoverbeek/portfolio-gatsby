@@ -1,4 +1,4 @@
 .group {
-  max-width: 816px;
+  max-width: var(--small-container);
   margin: 0 auto;
 }
