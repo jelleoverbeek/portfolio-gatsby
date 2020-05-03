@@ -9,4 +9,13 @@
 
 .wrapper video {
   width: 100%;
+  border-radius: 6px;
+}
+
+@media (max-width: 550px) {
+  .wrapper {
+    margin: 24px auto;
+    box-shadow: none;
+    border: 8px solid var(--light-gray);
+  }
 }

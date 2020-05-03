@@ -65,6 +65,10 @@
     height: auto;
   }
 
+  .subtitle {
+    font-size: 16px;
+  }
+
   .card:hover {
     background: var(--dark);
   }
