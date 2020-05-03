@@ -10,7 +10,7 @@ const eventPage = () => (
     <SEO title="Abstract To Do" />
     <CaseHeader
       title="Abstract To Do"
-      subtitle="Product designer"
+      subtitle="Design & development"
       liveUrl="//github.com/jelleoverbeek/abstract-todo/releases"
       buttonLabel="Download"
     >

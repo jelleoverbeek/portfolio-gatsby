@@ -9,51 +9,86 @@ import Chapter from "../components/chapter/chapter";
 
 const eventPage = () => (
   <Layout>
-    <SEO title="Event page" />
+    <SEO title="Discover" />
     <CaseHeader title="Discover" subtitle="Product designer">
       <p>
-        The event page of TicketSwap is the most viewed on the platform. On this
-        page listings thousands of fans are trying to get a ticket to their
-        favourite show. Jim and I worked together on the UX and I finished the
-        UI and led the implementation of the design. By researching Hotjar,
-        conducting a survey, digging through the testimonials and the contact
-        moments with our support team we composed those goals:
+        In the pursuit of becoming the starting point of visiting music events
+        TicketSwap also wants to add event discovery features. During this
+        project we started to make the first steps to add those features. My
+        graduation project was about designing a visionary concept of how event
+        discovery on TicketSwap could work. I reused all the research I did and
+        learnings from this and combined it with what was possible with our data
+        at that moment.
       </p>
 
       <Goals>
         <h4>Goals</h4>
         <ul>
-          <li>Refresh UI of the page</li>
-          <li>Simplify ticket alert behaviour</li>
+          <li>Set first steps towards event discovery.</li>
           <li>
-            Decrease questions of users where there newly created listings are.
+            Start serving event recommendations to learn from user behaviour and
+            improve the recommendation model.
           </li>
-          <li>Make users aware that refreshing doesn’t help.</li>
+          <li>Increase retention of users.</li>
         </ul>
       </Goals>
     </CaseHeader>
 
     <main>
-      <Chapter title="top" imagePath="cases/discover/top.jpg">
-        <p>top</p>
+      <Chapter title="Opening the app" imagePath="cases/discover/top.jpg">
+        <p>
+          When an user opens the app the first part they will see is this. Users
+          will have the ability to search for the event they want to buy or sell
+          tickets for. Other than a global search we offer two of the most used
+          browse presets. These presets bring the user to the browse events
+          screen with some filters already set.
+        </p>
       </Chapter>
 
       <Chapter
         title="Browse events"
         imagePath="cases/discover/browse-events.jpg"
       >
-        <p>browse events</p>
+        <p>
+          Using the browse event features users can find the right event on the
+          right day. During this project my task was to start small and take a
+          close look at what we already could implement with the data and
+          back-end we had. The result where 3 filters for location, category and
+          the date.
+        </p>
       </Chapter>
 
       <Chapter
         title="Personalised recommendations"
         imagePath="cases/discover/picked-for-you.jpg"
       >
-        <p>recommendations</p>
+        <p>
+          The data scientists at TicketSwap have worked on creating a system
+          that could recommend relevant events to users. This project was the
+          first time we were going to implement it and show the recommendations
+          to the users.
+        </p>
+        <p>
+          At TicketSwap we didn’t have a team that could work fulltime on
+          curated content so I decided to make those recommendations the most
+          prominent part of the app. The avatars of the artists already give
+          some insight in what kind it is and also help to create a rich event
+          card when there is no event image available.
+        </p>
+        <p>
+          In the actual app the recommendations actually show up quite subtle,
+          this decision was made based on technical constraints and will be
+          improved in the future.
+        </p>
       </Chapter>
 
-      <Chapter title="Cards" imagePath="cases/discover/cards.jpg">
-        <p>cards</p>
+      <Chapter title="Types of content" imagePath="cases/discover/cards.jpg">
+        <p>
+          Another new type of content are collections. The curators at
+          TicketSwap can create dynamic collections using filters but also
+          static collections that can be used for big events like the Amsterdam
+          Dance Event.
+        </p>
       </Chapter>
     </main>
   </Layout>

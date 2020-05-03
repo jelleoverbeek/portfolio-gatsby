@@ -17,46 +17,79 @@ const eventPage = () => (
       buttonLabel="View live"
     >
       <p>
-        The event page of TicketSwap is the most viewed on the platform. On this
-        page listings thousands of fans are trying to get a ticket to their
-        favourite show. Jim and I worked together on the UX and I finished the
-        UI and led the implementation of the design. By researching Hotjar,
-        conducting a survey, digging through the testimonials and the contact
-        moments with our support team we composed those goals:
+        We all have an artist we like and want to visit as soon as they play in
+        the area. By giving users the ability to follow artists we want to
+        enable them to easily keep track of their favourite artists. We will
+        also use the data we get from this to improve our event recommendations.
       </p>
 
       <Goals>
         <h4>Goals</h4>
         <ul>
-          <li>Refresh UI of the page</li>
+          <li>
+            Create the ability for users to get informed when their favourite
+            artist performs.
+          </li>
           <li>Simplify ticket alert behaviour</li>
           <li>
-            Decrease questions of users where there newly created listings are.
+            Get more data about what artists users likes for our recommendations
+            models.
           </li>
-          <li>Make users aware that refreshing doesn’t help.</li>
+          <li>Revamp the UI of the existing artists page.</li>
         </ul>
       </Goals>
     </CaseHeader>
 
     <main>
       <Chapter
-        title="Preview"
+        title="The artists page"
         imagePath="cases/artist/preview.jpg"
         type="border"
       >
-        <p>Preview</p>
+        <p>
+          Throughout the platform the dark header is used to show general
+          information. The primary action here is to follow the artist.
+          Following an artist will inform users when they are performing in the
+          area. The tooltip educated this to the user until they dismiss it or
+          follow an artist.
+        </p>
       </Chapter>
 
       <Chapter
-        title="Artists"
+        title="Simple follow interaction"
         imagePath="cases/artist/artists.jpg"
         type="border"
       >
-        <p>Artists</p>
+        <p>
+          Similar artists are shown at the bottom of the page. Every artist card
+          on the platform will contain a follow button so users can easily build
+          up their profile. They can for example go to the line-up section of
+          their favourite festival and follow all the artists they like.
+        </p>
       </Chapter>
 
-      <Chapter title="Badges" imagePath="cases/artist/badges.jpg" type="border">
-        <p>Badges</p>
+      <Chapter
+        title="Badges across the platform"
+        imagePath="cases/artist/badges.jpg"
+        type="border"
+      >
+        <p>
+          If you’ve never heard about “Dekmantel Festival” or “Lowlands” and you
+          see those event names passing by when browsing TicketSwap the odds are
+          low you click on them. You simply don’t know what kind of event it is.
+        </p>
+        <p>
+          To give users an idea on what events are interesting to them I came up
+          with this badge that shows artist the user follows on the event items
+          throughout the platform.
+        </p>
+      </Chapter>
+
+      <Chapter title="Push" imagePath="cases/artist/push.jpg">
+        <p>
+          When an artist the user is following is playing in the area the user
+          is able to
+        </p>
       </Chapter>
 
       <Chapter
@@ -64,11 +97,7 @@ const eventPage = () => (
         imagePath="cases/artist/homepage.jpg"
         type="border"
       >
-        <p>Homepage</p>
-      </Chapter>
-
-      <Chapter title="Push" imagePath="cases/artist/push.jpg">
-        <p>Push</p>
+        <p>While this </p>
       </Chapter>
     </main>
   </Layout>
