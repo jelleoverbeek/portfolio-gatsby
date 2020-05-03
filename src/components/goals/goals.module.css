@@ -18,6 +18,20 @@
   line-height: 1.44;
 }
 
+@media (max-width: 550px) {
+  .goals ul {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 350px) {
+  .goals ul {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+
 .goals li {
   margin-top: 4px;
 }
