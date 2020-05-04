@@ -11,12 +11,7 @@ import CaseFooter from "../components/caseFooter/caseFooter";
 const eventPage = () => (
   <Layout>
     <SEO title="Desize" />
-    <CaseHeader
-      title="Desize"
-      subtitle="Design & development"
-      liveUrl="//desize.app"
-      buttonLabel="Download"
-    >
+    <CaseHeader title="Desize" subtitle="Design & development">
       <p>
         The best way to learn something new is by just doing it. To learn{" "}
         <a

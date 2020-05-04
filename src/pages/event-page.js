@@ -86,7 +86,7 @@ const eventPage = () => (
         type="border"
       >
         <p>
-          New Listings only show up after a few minutes to give people with
+          New listings only show up after a few minutes to give people with
           ticket alerts enabled a higher change on getting a ticket and to
           combat bots. When doing our research we discovered that sellers went
           to the event page immediatly after creating a listing but couldn’t see

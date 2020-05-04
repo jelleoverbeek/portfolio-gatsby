@@ -10,9 +10,14 @@ const CaseHeader = ({ children, title, subtitle, liveUrl, buttonLabel }) => {
           <Button type="secondary" to="/">
             Back
           </Button>
-          <Button type="primary" href={liveUrl}>
-            {buttonLabel}
-          </Button>
+
+          {liveUrl ? (
+            <Button type="primary" href={liveUrl}>
+              {buttonLabel}
+            </Button>
+          ) : (
+            false
+          )}
         </nav>
       </div>
       <div className={caseHeaderStyles.text}>

@@ -45,7 +45,7 @@ const eventPage = () => (
     <main>
       <Chapter
         title="The artists page"
-        imagePath="cases/artist/preview.jpg"
+        imagePath="cases/following-artists/preview.jpg"
         type="border"
       >
         <p>
@@ -59,7 +59,7 @@ const eventPage = () => (
 
       <Chapter
         title="Simple follow interaction"
-        imagePath="cases/artist/artists.jpg"
+        imagePath="cases/following-artists/artists.jpg"
         type="border"
       >
         <p>
@@ -72,7 +72,7 @@ const eventPage = () => (
 
       <Chapter
         title="Badges across the platform"
-        imagePath="cases/artist/badges.jpg"
+        imagePath="cases/following-artists/badges.jpg"
         type="border"
       >
         <p>
@@ -88,7 +88,10 @@ const eventPage = () => (
         </p>
       </Chapter>
 
-      <Chapter title="Notifications" imagePath="cases/artist/push.jpg">
+      <Chapter
+        title="Notifications"
+        imagePath="cases/following-artists/push.jpg"
+      >
         <p>
           When an artist performing is performing in the area of the user we
           will send out a push notification. If the user doesn’t have the app
@@ -98,7 +101,7 @@ const eventPage = () => (
 
       <Chapter
         title="Homepage widget"
-        imagePath="cases/artist/homepage.jpg"
+        imagePath="cases/following-artists/homepage.jpg"
         type="border"
       >
         <p>

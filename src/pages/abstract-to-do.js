@@ -11,12 +11,7 @@ import CaseFooter from "../components/caseFooter/caseFooter";
 const eventPage = () => (
   <Layout>
     <SEO title="Abstract To Do" />
-    <CaseHeader
-      title="Abstract To Do"
-      subtitle="Design & development"
-      liveUrl="//github.com/jelleoverbeek/abstract-todo/releases"
-      buttonLabel="Download"
-    >
+    <CaseHeader title="Abstract To Do" subtitle="Design & development">
       <p>
         When we still worked with{" "}
         <a href="//www.abstract.com/" target="_blank" rel="noopener noreferrer">
