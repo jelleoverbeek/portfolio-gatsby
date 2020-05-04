@@ -12,11 +12,11 @@ const IndexPage = () => (
       <Intro />
       <Group
         title="TicketSwap"
-        description="TicketSwap is platform where over 5 million music fans buy and sell tickets. Ticket prices are capped at 120% of the original price to keep it fair and tickets are being checked for validity to make sure all transactions are secure."
+        description="TicketSwap is a secure and fair place to buy and sell e-tickets. Ticket prices are capped at 120% of the original price and checked for validity. Currently TicketSwap has more than 5 million users worldwide which makes it one of the biggest fan-to-fan ticket platforms in the world."
       >
         <Card
           title="Event page"
-          subtitle="The place where thousands of fans are trying to get a ticket, daily."
+          subtitle="The place where thousands of people are trying to get tickets, daily."
           imagePath="thumbs/thumb-event.png"
           to="/event-page/"
         ></Card>
@@ -28,15 +28,21 @@ const IndexPage = () => (
         ></Card>
         <Card
           title="Discover"
-          subtitle="Finding the right event on the right day."
+          subtitle="Find music and more, on a day that works for you"
           imagePath="thumbs/thumb-discover.png"
           to="/discover/"
+        ></Card>
+        <Card
+          title="Sketch plugin"
+          subtitle="Real data with just a click"
+          imagePath="thumbs/thumb-plugin.png"
+          to="/sketch-plugin/"
         ></Card>
       </Group>
 
       <Group
         title="Side projects"
-        description="While I work as a product designer during my day job I focus on keeping up my code skills during my side projects. In the past year I learned how to use React, Electron and Typescript while solving some productivity issues using the tools below."
+        description="While I work as a product designer during my day job I also focus a lot on coding during my side projects. In the past year I learned how to use React, Electron and Typescript while solving some productivity issues"
       >
         <Card
           title="Abstract To Do"
