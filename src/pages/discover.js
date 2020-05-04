@@ -11,7 +11,12 @@ import Group from "../components/group/group";
 const eventPage = () => (
   <Layout>
     <SEO title="TicketSwap Discovery" />
-    <CaseHeader title="Discover" subtitle="Product designer">
+    <CaseHeader
+      title="Discover"
+      subtitle="Product designer"
+      liveUrl="https://www.ticketswap.com/apps"
+      buttonLabel="Download app"
+    >
       <p>
         In the pursuit of becoming the starting point of visiting music events
         TicketSwap also needs features that enable users to discover new events.

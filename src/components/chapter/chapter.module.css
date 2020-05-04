@@ -39,4 +39,5 @@
 
 .media-border img {
   border-radius: var(--radius-small);
+  height: auto !important; /* Fix to override Gatsby generated inline style */
 }

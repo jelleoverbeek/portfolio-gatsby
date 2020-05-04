@@ -8,3 +8,9 @@
 .button-wrapper {
   margin-right: 24px;
 }
+
+@media (max-width: 550px) {
+  .footer {
+    text-align: left;
+  }
+}

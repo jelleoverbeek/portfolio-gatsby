@@ -130,7 +130,7 @@ const eventPage = () => (
           title="Following artists"
           subtitle="The latest of your favourite artists, anywhere on the platform."
           imagePath="thumbs/thumb-artists.png"
-          to="/artists/"
+          to="/following-artists/"
         ></Card>
       </Group>
     </main>
