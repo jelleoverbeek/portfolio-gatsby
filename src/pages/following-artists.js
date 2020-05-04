@@ -19,9 +19,9 @@ const eventPage = () => (
     >
       <p>
         We all have an artist we like and want to visit as soon as they perform
-        in the area. By giving users the ability to follow artists we want to be
-        able to easily keep track of their favourite artists. We will also use
-        this data to improve our event recommendations. The research existed of
+        in the area. By giving users the ability to follow artists we want them
+        to be able to easily keep track of their favourite artists. We will also
+        use this to improve our event recommendations. The research existed of
         user interviews, a survey, analyzing data and benchmarking similar
         features.
       </p>
@@ -31,7 +31,7 @@ const eventPage = () => (
         <ul>
           <li>
             Add the ability for users to get informed when their favourite
-            artist are performing.
+            artists are performing.
           </li>
           <li>
             Get more data about what artists the users like for our
@@ -50,8 +50,8 @@ const eventPage = () => (
       >
         <p>
           Throughout the platform the dark header is used to show general
-          information about an entity. The primary action here is to follow the
-          artist. Following an artist will inform users when they are performing
+          information. The primary action here is to follow the artist.
+          Following an artist will inform users about when they are performing
           in the area. The tooltip educated this to the user until they dismiss
           it or follow an artist.
         </p>
@@ -76,23 +76,23 @@ const eventPage = () => (
         type="border"
       >
         <p>
-          If you’ve never heard about “Dekmantel Festival” or “Lowlands” and you
-          see those event names passing by when browsing TicketSwap the odds are
-          low you click on them. You simply don’t know what kind of event it is.
+          If you’ve never heard about “Zomer Kabinet" or “Breakfast Club” and
+          you see those event names passing by when browsing TicketSwap, the
+          odds are low you're gonna click on them. You simply don’t know what
+          kind of event it is.
         </p>
         <p>
-          To give users an idea on what events are interesting to them I came up
-          with this badge that shows artist the user follows on the event cards
-          throughout the platform.
+          To give users an idea of what events are interesting to them, I came
+          up with this badge that shows the artist the user follows on the event
+          cards throughout the platform.
         </p>
       </Chapter>
 
       <Chapter title="Notifications" imagePath="cases/artist/push.jpg">
         <p>
-          When an artist the user follows is performing in his or her area we
+          When an artist performing is performing in the area of the user we
           will send out a push notification. If the user doesn’t have the app
-          installed we send out an email instead of a push notification. This
-          feature is not live yet.
+          installed we send out an email instead.
         </p>
       </Chapter>
 
@@ -104,8 +104,8 @@ const eventPage = () => (
         <p>
           A project that is currently work in progress is the redesign of the
           homepage. In the new design the homepage of TicketSwap will become
-          more personalised. One of the widgets that will be available contains
-          all nearby upcoming events of artists the users follows.
+          more personalised. One of the new widgets on this page contains all
+          nearby upcoming events of artists the users follows.
         </p>
       </Chapter>
 

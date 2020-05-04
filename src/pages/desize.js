@@ -26,8 +26,8 @@ const eventPage = () => (
         >
           TypeScript
         </a>{" "}
-        and improve my Electron knowledge I created a small app called “Desize”.
-        It is a open source image resizer, converter and compressor. It was
+        and improve my Electron knowledge I created a small app called Desize.
+        It is an open source image resizer, converter and compressor. It was
         built upon the library Sharp which makes it blazing fast at processing
         big amounts of images.
       </p>

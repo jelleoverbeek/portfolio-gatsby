@@ -18,15 +18,15 @@ const eventPage = () => (
       buttonLabel="Download"
     >
       <p>
-        While we worked with{" "}
+        When we still worked with{" "}
         <a href="//www.abstract.com/" target="_blank" rel="noopener noreferrer">
           Abstract
         </a>{" "}
         as our version control tool we made use of their design review feature.
-        While this feature was useful in general I was struggling with one
-        thing: having a clear overview of all the feedback given by colleagues
-        and being able to check them off. When Abstract released their SDK I
-        used it to create an app to solve this problem and learn how to use{" "}
+        While this feature was useful I was struggling with one thing: having a
+        clear overview of all the feedback given by colleagues and being able to
+        check them off. When Abstract released their SDK I used it to create an
+        app to solve this problem and learn how to use{" "}
         <a
           href="https://reactjs.org/"
           target="_blank"

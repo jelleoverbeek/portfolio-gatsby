@@ -14,7 +14,8 @@ const eventPage = () => (
       <p>
         When we still worked with Sketch I developed a plugin that fetched data
         from our production database right into Sketch. This plugin allowed the
-        team work with real data very easily and saved us a lot of time.
+        design team to work with real data very easily and saved us a lot of
+        time.
       </p>
     </CaseHeader>
     <VideoPlayer videoUrl={video}></VideoPlayer>
