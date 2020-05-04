@@ -15,12 +15,31 @@ const eventPage = () => (
       buttonLabel="Download"
     >
       <p>
-        When working with Abstract we made use of the design review feature.
-        While this feature was pretty useful in general I was struggling with
-        one thing: having a clear overview of all the given feedback and being
-        able to check them off. When Abstract released their SDK I used this to
-        create an app to solve this problem and learn how to use Electron and
-        React.
+        While we worked with{" "}
+        <a href="//www.abstract.com/" target="_blank" rel="noopener noreferrer">
+          Abstract
+        </a>{" "}
+        as our version control tool we made use of their design review feature.
+        While this feature was useful in general I was struggling with one
+        thing: having a clear overview of all the feedback given by colleagues
+        and being able to check them off. When Abstract released their SDK I
+        used it to create an app to solve this problem and learn how to use{" "}
+        <a
+          href="https://reactjs.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          React
+        </a>{" "}
+        and{" "}
+        <a
+          href="//www.electronjs.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Electron
+        </a>{" "}
+        in the meantime.
       </p>
     </CaseHeader>
     <VideoPlayer videoUrl={video}></VideoPlayer>

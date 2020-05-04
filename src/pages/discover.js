@@ -13,12 +13,11 @@ const eventPage = () => (
     <CaseHeader title="Discover" subtitle="Product designer">
       <p>
         In the pursuit of becoming the starting point of visiting music events
-        TicketSwap also wants to add event discovery features. During this
-        project we started to make the first steps to add those features. My
-        graduation project was about designing a visionary concept of how event
-        discovery on TicketSwap could work. I reused all the research I did and
-        learnings from this and combined it with what was possible with our data
-        at that moment.
+        TicketSwap also needs features that enable users to discover new events.
+        My graduation project was about designing a visionary concept of how
+        event discovery on TicketSwap could work. I reused all the research
+        learnings from this and combined it with what was possible with our
+        back-end and data at that moment.
       </p>
 
       <Goals>
@@ -46,7 +45,7 @@ const eventPage = () => (
       </Chapter>
 
       <Chapter
-        title="Browse events"
+        title="Browsing events"
         imagePath="cases/discover/browse-events.jpg"
       >
         <p>
@@ -63,31 +62,35 @@ const eventPage = () => (
         imagePath="cases/discover/picked-for-you.jpg"
       >
         <p>
-          The data scientists at TicketSwap have worked on creating a system
-          that could recommend relevant events to users. This project was the
-          first time we were going to implement it and show the recommendations
-          to the users.
+          The data scientists at TicketSwap have worked on an algorithm that
+          recommends relevant events to users. This project was the first time
+          we were going to implement it as a permanent feature.At TicketSwap we
+          don’t have a team that works full time on curated content so I decided
+          to make those recommendations the most prominent part of what we call
+          the discovery feed.
         </p>
         <p>
-          At TicketSwap we didn’t have a team that could work fulltime on
-          curated content so I decided to make those recommendations the most
-          prominent part of the app. The avatars of the artists already give
-          some insight in what kind it is and also help to create a rich event
-          card when there is no event image available.
+          Since Facebook shut down their API’s it is a challenge to get event
+          images in the platform. To still have rich event cards I used images
+          of the artists that are performing. The images also give some insight
+          on what kind of event it is and might increase the chance of a user
+          navigating to the event page.
         </p>
         <p>
           In the actual app the recommendations actually show up quite subtle,
-          this decision was made based on technical constraints and will be
+          this decision was made due to technical constraints and will be
           improved in the future.
         </p>
       </Chapter>
 
       <Chapter title="Types of content" imagePath="cases/discover/cards.jpg">
         <p>
-          Another new type of content are collections. The curators at
-          TicketSwap can create dynamic collections using filters but also
-          static collections that can be used for big events like the Amsterdam
-          Dance Event.
+          With the introduction of the discover feed we started with 4 types of
+          content. Event cards, cards for dynamic and fixed collections and blog
+          posts. Dynamic collections are lists of events that are updated
+          dynamically based on a set of rules. Fixed collections are a list of
+          specific events that can be used for events like the Amsterdam Dance
+          Event or the Eurovision Song Festival.
         </p>
       </Chapter>
     </main>
