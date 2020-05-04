@@ -17,23 +17,24 @@ const eventPage = () => (
       buttonLabel="View live"
     >
       <p>
-        We all have an artist we like and want to visit as soon as they play in
-        the area. By giving users the ability to follow artists we want to
-        enable them to easily keep track of their favourite artists. We will
-        also use the data we get from this to improve our event recommendations.
+        We all have an artist we like and want to visit as soon as they perform
+        in the area. By giving users the ability to follow artists we want to be
+        able to easily keep track of their favourite artists. We will also use
+        this data to improve our event recommendations. The research existed of
+        user interviews, a survey, analyzing data and benchmarking similar
+        features.
       </p>
 
       <Goals>
         <h4>Goals</h4>
         <ul>
           <li>
-            Create the ability for users to get informed when their favourite
-            artist performs.
+            Add the ability for users to get informed when their favourite
+            artist are performing.
           </li>
-          <li>Simplify ticket alert behaviour</li>
           <li>
-            Get more data about what artists users likes for our recommendations
-            models.
+            Get more data about what artists the users like for our
+            recommendations models.
           </li>
           <li>Revamp the UI of the existing artists page.</li>
         </ul>
@@ -48,10 +49,10 @@ const eventPage = () => (
       >
         <p>
           Throughout the platform the dark header is used to show general
-          information. The primary action here is to follow the artist.
-          Following an artist will inform users when they are performing in the
-          area. The tooltip educated this to the user until they dismiss it or
-          follow an artist.
+          information about an entity. The primary action here is to follow the
+          artist. Following an artist will inform users when they are performing
+          in the area. The tooltip educated this to the user until they dismiss
+          it or follow an artist.
         </p>
       </Chapter>
 
@@ -80,24 +81,31 @@ const eventPage = () => (
         </p>
         <p>
           To give users an idea on what events are interesting to them I came up
-          with this badge that shows artist the user follows on the event items
+          with this badge that shows artist the user follows on the event cards
           throughout the platform.
         </p>
       </Chapter>
 
-      <Chapter title="Push" imagePath="cases/artist/push.jpg">
+      <Chapter title="Notifications" imagePath="cases/artist/push.jpg">
         <p>
-          When an artist the user is following is playing in the area the user
-          is able to
+          When an artist the user follows is performing in his or her area we
+          will send out a push notification. If the user doesn’t have the app
+          installed we send out an email instead of a push notification. This
+          feature is not live yet.
         </p>
       </Chapter>
 
       <Chapter
-        title="Homepage"
+        title="Homepage widget"
         imagePath="cases/artist/homepage.jpg"
         type="border"
       >
-        <p>While this </p>
+        <p>
+          A project that is currently work in progress is the redesign of the
+          homepage. In the new design the homepage of TicketSwap will become
+          more personalised. One of the widgets that will be available contains
+          all nearby upcoming events of artists the users follows.
+        </p>
       </Chapter>
     </main>
   </Layout>
