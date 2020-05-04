@@ -10,7 +10,7 @@ import CaseFooter from "../components/caseFooter/caseFooter";
 
 const eventPage = () => (
   <Layout>
-    <SEO title="Abstract To Do app" />
+    <SEO title="Abstract To Do" />
     <CaseHeader
       title="Abstract To Do"
       subtitle="Design & development"

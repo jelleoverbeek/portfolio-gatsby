@@ -10,7 +10,7 @@ import Group from "../components/group/group";
 
 const eventPage = () => (
   <Layout>
-    <SEO title="TicketSwap Discovery" />
+    <SEO title="Discover" />
     <CaseHeader
       title="Discover"
       subtitle="Product designer"

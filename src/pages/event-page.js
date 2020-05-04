@@ -11,7 +11,7 @@ import CaseFooter from "../components/caseFooter/caseFooter";
 
 const eventPage = () => (
   <Layout>
-    <SEO title="TicketSwap Event Page" />
+    <SEO title="Event Page" />
     <CaseHeader
       title="Event page"
       subtitle="Product designer"
