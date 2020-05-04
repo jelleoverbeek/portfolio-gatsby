@@ -4,6 +4,9 @@ import SEO from "../components/seo";
 import CaseHeader from "../components/caseHeader/caseHeader";
 import VideoPlayer from "../components/videoPlayer/videoPlayer";
 import video from "../videos/abstract-to-do.mp4";
+import Card from "../components/card/card";
+import Group from "../components/group/group";
+import CaseFooter from "../components/caseFooter/caseFooter";
 
 const eventPage = () => (
   <Layout>
@@ -43,6 +46,24 @@ const eventPage = () => (
       </p>
     </CaseHeader>
     <VideoPlayer videoUrl={video}></VideoPlayer>
+
+    <CaseFooter
+      title="Try it yourself"
+      description="View the source code or download the app"
+      url2="//github.com/jelleoverbeek/abstract-todo"
+      buttonLabel2="Source Code"
+      url="//github.com/jelleoverbeek/abstract-todo/releases/download/0.2.0/To-Dos.for.Abstract-0.2.0.dmg"
+      buttonLabel="Download"
+    ></CaseFooter>
+
+    <Group title="Next case" description="">
+      <Card
+        title="Desize"
+        subtitle="Simple image resizer, compressor, and converter"
+        imagePath="thumbs/thumb-desize.png"
+        to="/desize/"
+      ></Card>
+    </Group>
   </Layout>
 );
 

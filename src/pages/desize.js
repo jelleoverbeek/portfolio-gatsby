@@ -4,6 +4,9 @@ import SEO from "../components/seo";
 import CaseHeader from "../components/caseHeader/caseHeader";
 import VideoPlayer from "../components/videoPlayer/videoPlayer";
 import video from "../videos/desize.mp4";
+import Card from "../components/card/card";
+import Group from "../components/group/group";
+import CaseFooter from "../components/caseFooter/caseFooter";
 
 const eventPage = () => (
   <Layout>
@@ -30,6 +33,24 @@ const eventPage = () => (
       </p>
     </CaseHeader>
     <VideoPlayer videoUrl={video}></VideoPlayer>
+
+    <CaseFooter
+      title="Try it yourself"
+      description="View the source code or download the app"
+      url2="//github.com/jelleoverbeek/desize"
+      buttonLabel2="Source Code"
+      url="//desize.app"
+      buttonLabel="Download"
+    ></CaseFooter>
+
+    <Group title="Next case" description="">
+      <Card
+        title="Event page"
+        subtitle="The place where thousands of people are trying to get tickets, daily."
+        imagePath="thumbs/thumb-event.png"
+        to="/event-page/"
+      ></Card>
+    </Group>
   </Layout>
 );
 

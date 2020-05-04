@@ -2,10 +2,11 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import CaseHeader from "../components/caseHeader/caseHeader";
-// import Card from "../components/card/card";
-// import Group from "../components/group/group";
+import CaseFooter from "../components/caseFooter/caseFooter";
 import Goals from "../components/goals/goals";
 import Chapter from "../components/chapter/chapter";
+import Card from "../components/card/card";
+import Group from "../components/group/group";
 
 const eventPage = () => (
   <Layout>
@@ -107,6 +108,17 @@ const eventPage = () => (
           all nearby upcoming events of artists the users follows.
         </p>
       </Chapter>
+
+      <CaseFooter url="//www.ticketswap.com/artist/hunee/5736e43b-8538-4c6b-98d8-e72b3094cde0"></CaseFooter>
+
+      <Group title="Next case" description="">
+        <Card
+          title="Discover"
+          subtitle="Find music and more, on a day that works for you"
+          imagePath="thumbs/thumb-discover.png"
+          to="/discover/"
+        ></Card>
+      </Group>
     </main>
   </Layout>
 );

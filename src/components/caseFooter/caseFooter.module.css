@@ -1,0 +1,10 @@
+.footer {
+  width: 100%;
+  max-width: var(--small-container);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.button-wrapper {
+  margin-right: 24px;
+}

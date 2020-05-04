@@ -4,6 +4,8 @@ import SEO from "../components/seo";
 import CaseHeader from "../components/caseHeader/caseHeader";
 import VideoPlayer from "../components/videoPlayer/videoPlayer";
 import video from "../videos/plugin-demo.mp4";
+import Card from "../components/card/card";
+import Group from "../components/group/group";
 
 const eventPage = () => (
   <Layout>
@@ -16,6 +18,15 @@ const eventPage = () => (
       </p>
     </CaseHeader>
     <VideoPlayer videoUrl={video}></VideoPlayer>
+
+    <Group title="Next case" description="">
+      <Card
+        title="Abstract To Do"
+        subtitle="Automatic to do lists for design feedback."
+        imagePath="thumbs/thumb-abstract.png"
+        to="/abstract-to-do/"
+      ></Card>
+    </Group>
   </Layout>
 );
 

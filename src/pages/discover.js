@@ -2,10 +2,11 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import CaseHeader from "../components/caseHeader/caseHeader";
-// import Card from "../components/card/card";
-// import Group from "../components/group/group";
+import CaseFooter from "../components/caseFooter/caseFooter";
 import Goals from "../components/goals/goals";
 import Chapter from "../components/chapter/chapter";
+import Card from "../components/card/card";
+import Group from "../components/group/group";
 
 const eventPage = () => (
   <Layout>
@@ -93,6 +94,22 @@ const eventPage = () => (
           Event or the Eurovision Song Festival.
         </p>
       </Chapter>
+
+      <CaseFooter
+        title="Try it yourself"
+        description="Download the iOS or Android app and try out the app yourself."
+        url="https://www.ticketswap.com/apps"
+        buttonLabel="Download"
+      ></CaseFooter>
+
+      <Group title="Next case" description="">
+        <Card
+          title="Sketch plugin"
+          subtitle="Real data with just a click"
+          imagePath="thumbs/thumb-plugin.png"
+          to="/sketch-plugin/"
+        ></Card>
+      </Group>
     </main>
   </Layout>
 );

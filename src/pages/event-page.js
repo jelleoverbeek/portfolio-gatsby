@@ -3,10 +3,11 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import CaseHeader from "../components/caseHeader/caseHeader";
-// import Card from "../components/card/card";
-// import Group from "../components/group/group";
 import Goals from "../components/goals/goals";
 import Chapter from "../components/chapter/chapter";
+import Card from "../components/card/card";
+import Group from "../components/group/group";
+import CaseFooter from "../components/caseFooter/caseFooter";
 
 const eventPage = () => (
   <Layout>
@@ -121,6 +122,17 @@ const eventPage = () => (
           are an extra trigger to visit those event pages.
         </p>
       </Chapter>
+
+      <CaseFooter url="//www.ticketswap.com/event/dekmantel-festival/c4b0156a-aa73-4e89-a027-fe679776c746"></CaseFooter>
+
+      <Group title="Next case" description="">
+        <Card
+          title="Following artists"
+          subtitle="The latest of your favourite artists, anywhere on the platform."
+          imagePath="thumbs/thumb-artists.png"
+          to="/artists/"
+        ></Card>
+      </Group>
     </main>
   </Layout>
 );
