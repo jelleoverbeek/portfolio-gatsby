@@ -9,7 +9,7 @@ import Chapter from "../components/chapter/chapter";
 
 const eventPage = () => (
   <Layout>
-    <SEO title="Discover" />
+    <SEO title="TicketSwap Discovery" />
     <CaseHeader title="Discover" subtitle="Product designer">
       <p>
         In the pursuit of becoming the starting point of visiting music events

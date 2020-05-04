@@ -7,7 +7,7 @@ import video from "../videos/abstract-to-do.mp4";
 
 const eventPage = () => (
   <Layout>
-    <SEO title="Abstract To Do" />
+    <SEO title="Abstract To Do app" />
     <CaseHeader
       title="Abstract To Do"
       subtitle="Design & development"

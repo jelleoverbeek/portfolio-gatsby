@@ -9,9 +9,9 @@ import Chapter from "../components/chapter/chapter";
 
 const eventPage = () => (
   <Layout>
-    <SEO title="Artists page" />
+    <SEO title="Following Artists" />
     <CaseHeader
-      title="Artists page"
+      title="Following Artists"
       subtitle="Product designer"
       liveUrl="//www.ticketswap.com/artist/hunee/5736e43b-8538-4c6b-98d8-e72b3094cde0"
       buttonLabel="View live"
