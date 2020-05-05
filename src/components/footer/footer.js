@@ -13,16 +13,32 @@ const Footer = () => (
       </div>
 
       <div className={footerStyles.icons}>
-        <a href="//dribbble.com/jelleoverbeek">
+        <a
+          href="//dribbble.com/jelleoverbeek"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={dribbble} alt="" />
         </a>
-        <a href="//github.com/jelleoverbeek">
+        <a
+          href="//github.com/jelleoverbeek"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={github} alt="" />
         </a>
-        <a href="//twitter.com/jelleoverbeek">
+        <a
+          href="//twitter.com/jelleoverbeek"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={twitter} alt="" />
         </a>
-        <a href="//www.linkedin.com/in/jelle-overbeek-a595b246/">
+        <a
+          href="//www.linkedin.com/in/jelle-overbeek-a595b246/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={linkedin} alt="" />
         </a>
       </div>
