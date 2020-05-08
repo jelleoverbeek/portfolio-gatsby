@@ -122,7 +122,7 @@ const eventPage = () => (
         <p>
           At the bottom of each event page the user can find similar events.
           When there are no tickets available for the event the user can easily
-          find an alternative. The badges with artists the users follows, are an
+          find an alternative. The badges with artists the users follows are an
           extra trigger to visit the events.
         </p>
       </Chapter>
