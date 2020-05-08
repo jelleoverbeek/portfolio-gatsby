@@ -42,9 +42,8 @@ const Intro = () => (
   <div className={introStyles.intro}>
     <div className={introStyles.text}>
       <p>
-        I’m Jelle, a designer that also loves to{" "}
-        <a href="//github.com/jelleoverbeek">code</a>. Currently I’m doing
-        product design at{" "}
+        I’m Jelle, a designer who <a href="//github.com/jelleoverbeek">codes</a>
+        . Currently on the product design team at{" "}
         <a
           href="https://ticketswap.com/"
           target="_blank"

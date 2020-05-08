@@ -42,9 +42,8 @@ const eventPage = () => (
     <main>
       <Chapter title="Opening the app" imagePath="cases/discover/top.jpg">
         <p>
-          When an user opens the app the first part they will see is this. Users
-          will have the ability to search for the event they want to buy or sell
-          tickets for. Other than a global search we also offer two of the most
+          When an user opens the app the first thing they will see are ways to
+          find events. Other than a global search we also offer two of the most
           used presets to discover events. These presets bring the user to the
           browse events screen with some filters already set.
         </p>
@@ -73,8 +72,8 @@ const eventPage = () => (
           With the browse event features users can find the right event on the
           right day. During this project my task was to start small and take a
           close look at what we already could implement with the data and
-          back-end we had. The result where 3 filters for location, category and
-          date.
+          back-end we had. The result where three filters for location, category
+          and date.
         </p>
       </Chapter>
 
@@ -91,24 +90,24 @@ const eventPage = () => (
           the discovery feed.
         </p>
         <p>
-          Since Facebook shut down their API’s it is a challenge for us to get
-          event images in the platform. To still have rich event cards I used
-          images of the artists that are performing. The images also give some
-          insight on what kind of event it is and might increase the chance of a
-          user navigating to the event page.
+          Since Facebook shut down their API’s it has been a challenge for us to
+          get event images in the platform. To still have rich event cards I
+          used images of the artists that are performing. The images also give
+          some insight on what kind of event it is and might increase the chance
+          of a user navigating to the event page.
         </p>
         <p>
           In the live app the recommendations show up quite subtle and not as in
-          this image, this decision was made due to technical constraints and
-          will be improved in the future.
+          the image below. This decision was made due to technical constraints
+          and will be improved in the future.
         </p>
       </Chapter>
 
       <Chapter title="Types of content" imagePath="cases/discover/cards.jpg">
         <p>
-          With the introduction of the discover feed we started with 4 types of
-          content. Event cards, cards for dynamic and fixed collections and blog
-          posts. Dynamic collections are lists of events that are updated
+          With the introduction of the discover feed we started with four types
+          of content. Event cards, cards for dynamic and fixed collections and
+          blog posts. Dynamic collections are lists of events that are updated
           dynamically based on a set of rules. Fixed collections are a list of
           specific events that can be used for events like the Amsterdam Dance
           Event or the Eurovision Song Festival.

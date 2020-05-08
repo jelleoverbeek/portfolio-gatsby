@@ -19,12 +19,12 @@ const eventPage = () => (
       buttonLabel="View live"
     >
       <p>
-        The event page of TicketSwap is the most viewed page of the platform. On
-        this page thousands of fans are trying to get a ticket to their
-        favourite event. My colleague Jim and I worked together on the UX and I
-        finished the UI and led the implementation of the design. By researching
-        Hotjar, doing a survey, digging through testimonials and the contact
-        moments with our support team we composed the following goals.
+        The event page of TicketSwap is the most viewed page of the platform.
+        Here thousands of fans are trying to get a ticket to their favourite
+        event. My colleague Jim and I worked together on the UX and I finished
+        the UI and led the implementation of the design. By researching Hotjar,
+        doing a survey, digging through testimonials and the contact moments
+        with our support team we composed the following goals.
       </p>
 
       <Goals>
@@ -33,7 +33,7 @@ const eventPage = () => (
           <li>Revamp UI of the page.</li>
           <li>Simplify ticket alert behaviour.</li>
           <li>
-            Decrease questions of users where there newly created listings are.
+            Decrease questions of users where their newly created listings are.
           </li>
         </ul>
       </Goals>
@@ -46,10 +46,10 @@ const eventPage = () => (
         type="border"
       >
         <p>
-          Users land on this page from either our search or Google. The page
-          gives a clear overview of general information about the event, the
-          supply and demand, the available ticket types and artists performing
-          at the event.
+          Users land on this page from either our own search or Google results.
+          The page gives a clear overview of general information about the
+          event, the supply and demand, the available ticket types and artists
+          performing at the event.
         </p>
       </Chapter>
 
@@ -62,7 +62,7 @@ const eventPage = () => (
           Here users spend a lot of time trying to get a ticket. To create trust
           and make the page feel personal we show avatars of the sellers. The
           comments that sellers add to their listing sometimes create funny
-          situations that sometimes even get shared on social media.
+          situations that even get shared on social media.
         </p>
       </Chapter>
 
@@ -72,11 +72,11 @@ const eventPage = () => (
         type="border"
       >
         <p>
-          We changed the ticket alert behaviour from a traditional button that
-          triggered a form to a simple toggle. The user can also set a price
-          limit to only receive alerts for tickets offered below a certain
-          price. Changing the behaviour increased the amount of conversions and
-          time to convert by quite a bit.
+          We changed the ticket alert behaviour from a button that triggered a
+          form to a simple toggle. The user can also set a price limit to only
+          receive alerts for tickets offered below a certain price. Changing the
+          behaviour increased the amount of conversions and time to convert by
+          quite a bit.
         </p>
       </Chapter>
 
@@ -87,7 +87,7 @@ const eventPage = () => (
       >
         <p>
           New listings only show up after a few minutes to give people with
-          ticket alerts enabled a higher change on getting a ticket and to
+          ticket alerts enabled a higher chance of getting a ticket and to
           combat bots. When doing our research we discovered that sellers went
           to the event page immediatly after creating a listing but couldn’t see
           it yet. This resulted in a lot of users contacting support. To solve
@@ -95,7 +95,7 @@ const eventPage = () => (
           conversion we will now show the newly created to the seller only.
         </p>
         <p>
-          Since about a year we are also selling organizer tickets on the
+          For about a year we are also selling organizer tickets on the
           platform. To make the listing more trustworthy and stand out we added
           a verified badge.
         </p>
@@ -121,10 +121,9 @@ const eventPage = () => (
       >
         <p>
           At the bottom of each event page the user can find similar events.
-          This is useful when there are for example no tickets available for the
-          event the user wants to visit, in that situation the user easliy find
-          an alternative. The badges with the favourite artists of the user are
-          an extra trigger to visit check out the events.
+          When there are not tickets available for the event the user can easily
+          find an alternative. The badges with the favourite artists of the user
+          are an extra trigger to visit the events.
         </p>
       </Chapter>
 

@@ -13,7 +13,7 @@ const eventPage = () => (
     <SEO title="Abstract To Do" />
     <CaseHeader title="Abstract To Do" subtitle="Design & development">
       <p>
-        When we still worked with{" "}
+        While using{" "}
         <a href="//www.abstract.com/" target="_blank" rel="noopener noreferrer">
           Abstract
         </a>{" "}
@@ -37,7 +37,7 @@ const eventPage = () => (
         >
           Electron
         </a>{" "}
-        in the meantime.
+        at the same time.
       </p>
     </CaseHeader>
     <VideoPlayer videoUrl={video}></VideoPlayer>

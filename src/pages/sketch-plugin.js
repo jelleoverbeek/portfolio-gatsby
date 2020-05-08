@@ -12,10 +12,9 @@ const eventPage = () => (
     <SEO title="TicketSwap Sketch Plugin" />
     <CaseHeader title="Sketch Plugin" subtitle="Development">
       <p>
-        When we still worked with Sketch I developed a plugin that fetched data
-        from our production database right into Sketch. This plugin allowed the
-        design team to work with real data very easily and saved us a lot of
-        time.
+        I developed a Sketch plugin that fetched data from our production
+        database right into Sketch. This plugin allowed the design team to work
+        with real data very easily and saved us a lot of time.
       </p>
     </CaseHeader>
     <VideoPlayer videoUrl={video}></VideoPlayer>
