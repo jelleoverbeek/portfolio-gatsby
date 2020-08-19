@@ -15,7 +15,7 @@ const eventPage = () => (
     <CaseHeader
       title="Event page"
       subtitle="Product designer"
-      liveUrl="//www.ticketswap.com/event/dekmantel-festival/c4b0156a-aa73-4e89-a027-fe679776c746"
+      liveUrl="//ticketswap.com/event/motor-city-drum-ensemble/regular-tickets/f4a6bb16-9418-4941-9857-0c37b1c608fe/1555633"
       buttonLabel="View live"
     >
       <p>
@@ -59,10 +59,9 @@ const eventPage = () => (
         type="border"
       >
         <p>
-          Here users spend a lot of time trying to get a ticket. To create trust
-          and make the page feel personal we show avatars of the sellers. The
-          comments that sellers add to their listing sometimes create funny
-          situations that even get shared on social media.
+          Here users spend a lot of time trying to get a ticket. The comments
+          that sellers add to their listing sometimes create funny situations
+          that even get shared on social media.
         </p>
       </Chapter>
 
@@ -127,7 +126,7 @@ const eventPage = () => (
         </p>
       </Chapter>
 
-      <CaseFooter url="//www.ticketswap.com/event/dekmantel-festival/c4b0156a-aa73-4e89-a027-fe679776c746"></CaseFooter>
+      <CaseFooter url="//ticketswap.com/event/motor-city-drum-ensemble/regular-tickets/f4a6bb16-9418-4941-9857-0c37b1c608fe/1555633"></CaseFooter>
 
       <Group title="Next case" description="">
         <Card
