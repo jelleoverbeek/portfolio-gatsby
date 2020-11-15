@@ -40,10 +40,10 @@ const eventPage = () => (
 
     <Group title="Next case" description="">
       <Card
-        title="Event page"
-        subtitle="The place where thousands of people are trying to get tickets, daily."
-        imagePath="thumbs/thumb-event.png"
-        to="/event-page/"
+        title="The raffle"
+        subtitle="Fairly distributing a few tickets between thousands of people."
+        imagePath="thumbs/thumb-raffle.png"
+        to="/raffle/"
       ></Card>
     </Group>
   </Layout>

@@ -16,7 +16,7 @@ const IndexPage = () => (
       >
         <Card
           title="The raffle"
-          subtitle="The place where thousands of people are trying to get tickets, daily."
+          subtitle="Fairly distributing a few tickets between thousands of people."
           imagePath="thumbs/thumb-raffle.png"
           to="/raffle/"
         ></Card>
