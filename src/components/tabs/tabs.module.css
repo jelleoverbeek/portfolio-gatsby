@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  max-width: var(--small-container);
+  margin: 0 auto;
+  padding: 0.5rem;
+  border-radius: var(--radius-big);
+  background-color: var(--light-gray);
+}
+
+.navItem {
+  list-style: none;
+  margin-right: 0.5rem;
+}
+
+.navItem button {
+  border-radius: var(--radius-small);
+  background-color: var(--light-gray);
+  font-weight: 600;
+}
+
+.navItem button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(0, 9, 229, 0.25);
+}
+
+.navItem button:hover {
+  background-color: var(--medium-gray);
+}
+
+.navItem .active,
+.navItem .active:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.tabContent {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
