@@ -1,4 +1,3 @@
-import { Link } from "gatsby";
 import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -7,7 +6,6 @@ import Goals from "../components/goals/goals";
 import Chapter from "../components/chapter/chapter";
 import Card from "../components/card/card";
 import Group from "../components/group/group";
-import CaseFooter from "../components/caseFooter/caseFooter";
 import VideoPlayer from "../components/videoPlayer/videoPlayer";
 import tooLateVideo from "../videos/raffle-too-late.mp4";
 import tappingVideo from "../videos/raffle-notification-tapping.mp4";
@@ -18,7 +16,11 @@ import productionWinnerVideo from "../videos/raffle-production-winner.mp4";
 const eventPage = () => (
   <Layout>
     <SEO title="Event Page" />
-    <CaseHeader title="The Raffle" subtitle="Product designer">
+    <CaseHeader
+      title="The Raffle"
+      subtitle="Product designer"
+      liveUrl="#the-result"
+    >
       <p>
         TicketSwap is a marketplace for second hand e-tickets. Most people come
         to TicketSwap if the official ticket sale has been sold out. Because
@@ -285,6 +287,7 @@ const eventPage = () => (
         videoUrl={productionLoserVideo}
         caption="Losing the raffle in production"
       />
+
       <VideoPlayer
         videoUrl={productionWinnerVideo}
         caption="Winning the raffle in production"
