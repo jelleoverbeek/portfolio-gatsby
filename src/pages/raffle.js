@@ -55,12 +55,16 @@ const eventPage = () => (
       </Goals>
     </CaseHeader>
 
-    <VideoPlayer videoUrl={tooLateVideo}></VideoPlayer>
-
     <main>
+      <VideoPlayer
+        videoUrl={tooLateVideo}
+        caption="This is the experience of most people after tapping on a notification. The ticket is already being paid for."
+      ></VideoPlayer>
+
       <Chapter
         title="Understanding our current technology"
         imagePath="cases/raffle/flowchart-ticketalerts.png"
+        imageCaption="High level visual representation of how ticket alerts are being send out."
         type="border"
       >
         <p>
@@ -150,7 +154,10 @@ const eventPage = () => (
         </p>
       </Chapter>
 
-      <VideoPlayer videoUrl={tappingVideo}></VideoPlayer>
+      <VideoPlayer
+        videoUrl={tappingVideo}
+        caption="Currently the highest chance of getting a ticket is by tapping on the spot of the notification and where the buy button will appear."
+      ></VideoPlayer>
 
       <Chapter title="Possible directions" type="border">
         <p>
@@ -194,6 +201,7 @@ const eventPage = () => (
       <Chapter
         title="The concept"
         imagePath="cases/raffle/flowchart-raffle.png"
+        imageCaption="Happy path the raffle concept"
         type="border"
       >
         <p>
@@ -236,9 +244,16 @@ const eventPage = () => (
         </p>
       </Chapter>
 
-      <VideoPlayer videoUrl={raffleIterations}></VideoPlayer>
+      <VideoPlayer
+        videoUrl={raffleIterations}
+        caption="A few of the different approaches on explaining the concept to the user."
+      ></VideoPlayer>
 
-      <Chapter imagePath="cases/raffle/thunder-vs-clover.png" type="no-border">
+      <Chapter
+        imagePath="cases/raffle/thunder-vs-clover.png"
+        imageCaption="Changing the visual representation of the chance a user has to win the raffle it much easier for users to understand the concept."
+        type="no-border"
+      >
         <p>
           The biggest win in clarity was made by changing the visual
           representation of the higher chance to win the next raffle. We first
@@ -266,8 +281,14 @@ const eventPage = () => (
         </p>
       </Chapter>
 
-      {/* <VideoPlayer videoUrl={productionLoserVideo}></VideoPlayer>
-      <VideoPlayer videoUrl={productionWinnerVideo}></VideoPlayer> */}
+      <VideoPlayer
+        videoUrl={productionLoserVideo}
+        caption="Losing the raffle in production"
+      />
+      <VideoPlayer
+        videoUrl={productionWinnerVideo}
+        caption="Winning the raffle in production"
+      />
 
       <Group title="Next case" description="">
         <Card

@@ -3,6 +3,7 @@ import React from "react";
 import chapterStyles from "./chapter.module.css";
 import { StaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
+import Caption from "../caption/caption";
 
 const Image = ({ fileName, alt }) => (
   <StaticQuery
@@ -37,7 +38,7 @@ const Image = ({ fileName, alt }) => (
   />
 );
 
-const Chapter = ({ title, imagePath, children, type }) => {
+const Chapter = ({ title, imagePath, imageCaption, type, children }) => {
   return (
     <section className={chapterStyles.chapter}>
       <div className={chapterStyles.text}>
@@ -45,15 +46,18 @@ const Chapter = ({ title, imagePath, children, type }) => {
         {children}
       </div>
       {imagePath && (
-        <div
-          className={
-            type === "border"
-              ? `${chapterStyles.media} ${chapterStyles.mediaBorder}`
-              : chapterStyles.media
-          }
-        >
-          <Image fileName={imagePath} alt="" />
-        </div>
+        <>
+          <div
+            className={
+              type === "border"
+                ? `${chapterStyles.media} ${chapterStyles.mediaBorder}`
+                : chapterStyles.media
+            }
+          >
+            <Image fileName={imagePath} alt="" />
+          </div>
+          {imageCaption && <Caption>{imageCaption}</Caption>}
+        </>
       )}
     </section>
   );

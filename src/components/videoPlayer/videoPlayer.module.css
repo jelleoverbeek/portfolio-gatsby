@@ -1,6 +1,6 @@
 .wrapper {
   display: grid;
-  margin: 2.5rem auto;
+  margin: 2.5rem auto 2rem auto;
   max-width: var(--big-container);
   border-radius: var(--radius-big);
   overflow: hidden;
