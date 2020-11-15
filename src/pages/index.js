@@ -33,10 +33,10 @@ const IndexPage = () => (
           to="/discover/"
         ></Card>
         <Card
-          title="Sketch plugin"
+          title="Figma & Sketch plugin"
           subtitle="Real data with just a click."
           imagePath="thumbs/thumb-plugin.png"
-          to="/sketch-plugin/"
+          to="/plugin/"
         ></Card>
       </Group>
 

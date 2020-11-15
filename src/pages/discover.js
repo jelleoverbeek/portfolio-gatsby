@@ -123,10 +123,10 @@ const eventPage = () => (
 
       <Group title="Next case" description="">
         <Card
-          title="Sketch plugin"
-          subtitle="Real data with just a click"
+          title="Figma & Sketch plugin"
+          subtitle="Real data with just a click."
           imagePath="thumbs/thumb-plugin.png"
-          to="/sketch-plugin/"
+          to="/plugin/"
         ></Card>
       </Group>
     </main>
