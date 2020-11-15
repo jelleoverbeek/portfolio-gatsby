@@ -101,6 +101,13 @@ p {
   line-height: 1.48;
 }
 
+@media (max-width: 550px) {
+  p {
+    font-size: 1.125rem;
+    line-height: 1.4;
+  }
+}
+
 ul {
   font-size: 1.25rem;
   color: var(--text-60);
@@ -109,7 +116,7 @@ ul {
 }
 
 @media (max-width: 550px) {
-  p {
+  ul {
     font-size: 1.125rem;
     line-height: 1.4;
   }
