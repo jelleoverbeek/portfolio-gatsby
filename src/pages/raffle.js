@@ -16,7 +16,7 @@ import Tabs from "../components/tabs/tabs";
 
 const eventPage = () => (
   <Layout>
-    <SEO title="Event Page" />
+    <SEO title="The Raffle" />
     <CaseHeader title="The Raffle" subtitle="Product designer">
       <p>
         TicketSwap is a marketplace for second hand e-tickets. Most people come
