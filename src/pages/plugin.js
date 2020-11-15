@@ -4,7 +4,7 @@ import SEO from "../components/seo";
 import CaseHeader from "../components/caseHeader/caseHeader";
 import VideoPlayer from "../components/videoPlayer/videoPlayer";
 import sketchPluginVideo from "../videos/sketch-plugin.mp4";
-// import figmaPluginVideo from "../videos/figma-plugin.mp4";
+import figmaPluginVideo from "../videos/figma-plugin.mp4";
 import Card from "../components/card/card";
 import Group from "../components/group/group";
 import Tabs from "../components/tabs/tabs";
@@ -15,12 +15,13 @@ const eventPage = () => (
     <CaseHeader title="Figma & Sketch plugin" subtitle="Development">
       <p>
         I developed a Figma and Sketch plugin that fetches data from our
-        production database right into Sketch. These plugins allow the design
-        team to work with real data very easily and saves us a lot of time.
+        production database right into the design tools. These plugins allow the
+        design team to work with real data very easily and saves us a lot of
+        time.
       </p>
     </CaseHeader>
 
-    {/* <Tabs
+    <Tabs
       tabs={[
         {
           title: "Figma",
@@ -31,7 +32,7 @@ const eventPage = () => (
           content: <VideoPlayer videoUrl={sketchPluginVideo}></VideoPlayer>,
         },
       ]}
-    ></Tabs> */}
+    ></Tabs>
 
     <Group title="Next case" description="">
       <Card
