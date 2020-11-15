@@ -41,18 +41,20 @@ const Chapter = ({ title, imagePath, children, type }) => {
   return (
     <section className={chapterStyles.chapter}>
       <div className={chapterStyles.text}>
-        <h3>{title}</h3>
+        {title && <h3>{title}</h3>}
         {children}
       </div>
-      <div
-        className={
-          type === "border"
-            ? `${chapterStyles.media} ${chapterStyles.mediaBorder}`
-            : chapterStyles.media
-        }
-      >
-        <Image fileName={imagePath} alt="" />
-      </div>
+      {imagePath && (
+        <div
+          className={
+            type === "border"
+              ? `${chapterStyles.media} ${chapterStyles.mediaBorder}`
+              : chapterStyles.media
+          }
+        >
+          <Image fileName={imagePath} alt="" />
+        </div>
+      )}
     </section>
   );
 };
@@ -63,7 +65,7 @@ Chapter.propTypes = {
 };
 
 Chapter.defaultProps = {
-  title: `Title`,
+  title: ``,
   imagePath: ``,
 };
 

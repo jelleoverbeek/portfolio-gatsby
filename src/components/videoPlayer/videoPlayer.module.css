@@ -8,8 +8,9 @@
 }
 
 .wrapper video {
-  width: 100%;
+  width: calc(100% + 1px); /* Fix for weird black border */
   border-radius: var(--radius-small);
+  background: var(--light-gray);
 }
 
 @media (max-width: 550px) {

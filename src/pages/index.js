@@ -15,10 +15,10 @@ const IndexPage = () => (
         description="TicketSwap is a safe and fair place to buy and sell e-tickets. Ticket prices are capped at 120% of the original price and checked for validity. Currently TicketSwap has more than 5 million users worldwide which makes it one of the biggest fan-to-fan ticket platforms in the world."
       >
         <Card
-          title="Event page"
+          title="The raffle"
           subtitle="The place where thousands of people are trying to get tickets, daily."
-          imagePath="thumbs/thumb-event.png"
-          to="/event-page/"
+          imagePath="thumbs/thumb-raffle.png"
+          to="/raffle/"
         ></Card>
         <Card
           title="Following artists"
